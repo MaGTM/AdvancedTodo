@@ -28,3 +28,5 @@ export const monthToString = (month: number): string => {
             return ''
     }
 }
+
+module.exports = monthToString

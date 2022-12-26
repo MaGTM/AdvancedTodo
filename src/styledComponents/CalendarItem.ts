@@ -5,5 +5,6 @@ export const CalendarItem = styled(Box)({
     height: '100px',
     display: 'flex',
     padding: 10,
-    cursor: 'pointer'
+    cursor: 'pointer',
+    borderRadius: '10px',
 })

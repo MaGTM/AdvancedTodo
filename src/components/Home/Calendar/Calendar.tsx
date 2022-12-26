@@ -9,7 +9,6 @@ interface CalendarProps {
 }
 
 const Calendar: FC<CalendarProps> = ({calendar, calendarState}) => {
-    console.log(calendar)
     let calendarArray = calendar.getCalendar(calendarState.month, calendarState.year).map(item=> {
         return item.map(weekDay => {
             return (

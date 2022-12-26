@@ -17,7 +17,7 @@ const Home = () => {
 
     return (
         <div>
-            <CalendarMenu calendarState={calendarState} setCalendarState={setCalendarState}/>
+            <CalendarMenu calendarState={calendarState} setCalendarState={setCalendarState} calendar={calendar}/>
             <Calendar calendar={calendar} calendarState={calendarState}/>
         </div>
     );

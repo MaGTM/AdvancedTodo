@@ -48,7 +48,7 @@ export class Calendar implements ICalendar {
             weekArray.push({
                 day: i - currentMonthFirstDayOfWeek + 1,
                 isActive: true,
-                isToday: (i - currentMonthFirstDayOfWeek + 1) === this.currentDate && month === this.currentMonth
+                isToday: (i - currentMonthFirstDayOfWeek + 1) === this.currentDate && month === this.currentMonth && year === this.currentYear
             })
         }
 
@@ -66,7 +66,7 @@ export class Calendar implements ICalendar {
                     weekArray.push({day: j, isActive: false})
                     continue
                 }
-                weekArray.push({day: j, isActive: true, isToday: this.currentDate === j && month === this.currentMonth})
+                weekArray.push({day: j, isActive: true, isToday: this.currentDate === j && month === this.currentMonth && year === this.currentYear})
             }
             this.calendar.push(weekArray)
         }
