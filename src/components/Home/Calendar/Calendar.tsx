@@ -1,13 +1,16 @@
-import React from 'react';
-import {Calendar as CalendarModel} from "../../../models/Calendar";
+import React, {FC} from 'react';
 import {Box, Grid, Typography} from "@mui/material";
 import {CalendarItem} from '../../../styledComponents/CalendarItem';
+import {ICalendar, ICalendarState} from "../../../models/ICalendar";
 
-const Calendar = () => {
-    let date = new Date()
-    let calendar = new CalendarModel()
+interface CalendarProps {
+    calendar: ICalendar,
+    calendarState: ICalendarState
+}
 
-    let calendarArray = calendar.getCalendar(date.getMonth(), date.getFullYear()).map((item, index) => {
+const Calendar: FC<CalendarProps> = ({calendar, calendarState}) => {
+    console.log(calendar)
+    let calendarArray = calendar.getCalendar(calendarState.month, calendarState.year).map(item=> {
         return item.map(weekDay => {
             return (
                 <Grid item sm={1.7} key={Math.random()}>

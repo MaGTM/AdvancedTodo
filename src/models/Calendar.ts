@@ -1,15 +1,12 @@
-interface weekInterface {
-    day: number,
-    isActive: boolean,
-    isToday?: boolean
-}
+import {ICalendar, IWeek} from "./ICalendar";
 
-export class Calendar {
+
+export class Calendar implements ICalendar {
     readonly currentYear: number
     readonly currentMonth: number
     readonly currentDate: number
     readonly currentWeekDay: number
-    readonly calendar: weekInterface[][] = []
+    private calendar: IWeek[][] = []
 
     constructor() {
         let date = new Date()
@@ -33,8 +30,8 @@ export class Calendar {
     }
 
     getCalendar(month: number, year: number) { // Getting Calendar Days
-        let weekArray: weekInterface[] = []
-
+        let weekArray: IWeek[] = []
+        this.calendar = []
         let startCurrentMonth = new Date()
         startCurrentMonth.setMonth(month)
         startCurrentMonth.setFullYear(year)
@@ -51,7 +48,7 @@ export class Calendar {
             weekArray.push({
                 day: i - currentMonthFirstDayOfWeek + 1,
                 isActive: true,
-                isToday: (i - currentMonthFirstDayOfWeek + 1) === this.currentDate
+                isToday: (i - currentMonthFirstDayOfWeek + 1) === this.currentDate && month === this.currentMonth
             })
         }
 
@@ -69,7 +66,7 @@ export class Calendar {
                     weekArray.push({day: j, isActive: false})
                     continue
                 }
-                weekArray.push({day: j, isActive: true, isToday: this.currentDate === j})
+                weekArray.push({day: j, isActive: true, isToday: this.currentDate === j && month === this.currentMonth})
             }
             this.calendar.push(weekArray)
         }

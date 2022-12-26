@@ -1,10 +1,24 @@
-import React from 'react';
+import React, {useMemo, useState} from 'react';
 import Calendar from "./Calendar/Calendar";
+import {Calendar as CalendarModel} from "../../models/Calendar";
+import {ICalendarState} from "../../models/ICalendar";
+import CalendarMenu from "./CalendarMenu/CalendarMenu";
 
 const Home = () => {
+    let calendar = useMemo(() => {
+        return new CalendarModel()
+    }, [])
+
+    let [calendarState, setCalendarState] = useState<ICalendarState>({
+        today: calendar.currentDate,
+        month: calendar.currentMonth,
+        year: calendar.currentYear
+    })
+
     return (
         <div>
-            <Calendar />
+            <CalendarMenu calendarState={calendarState} setCalendarState={setCalendarState}/>
+            <Calendar calendar={calendar} calendarState={calendarState}/>
         </div>
     );
 };
