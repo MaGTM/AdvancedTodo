@@ -22,5 +22,3 @@ export const changeMonthByOne = (type: 'next' | 'prev', currentMonth: number, cu
 
     return [newMonth, newYear]
 }
-
-module.exports = changeMonthByOne

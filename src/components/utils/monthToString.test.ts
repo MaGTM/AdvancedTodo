@@ -1,4 +1,4 @@
-const monthToString = require('./monthToString')
+import {monthToString} from "./monthToString";
 
 describe('monthToString', () => {
     test('December', () => {
@@ -11,5 +11,3 @@ describe('monthToString', () => {
         expect(monthToString(0)).toBe('January')
     })
 })
-
-export {}

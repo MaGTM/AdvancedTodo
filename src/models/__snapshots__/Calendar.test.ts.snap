@@ -1,0 +1,864 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calendar Model Month 1 1`] = `
+Array [
+  Array [
+    Object {
+      "day": 28,
+      "isActive": false,
+    },
+    Object {
+      "day": 29,
+      "isActive": false,
+    },
+    Object {
+      "day": 30,
+      "isActive": false,
+    },
+    Object {
+      "day": 1,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 2,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 3,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 4,
+      "isActive": true,
+      "isToday": false,
+    },
+  ],
+  Array [
+    Object {
+      "day": 5,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 6,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 7,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 8,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 9,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 10,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 11,
+      "isActive": true,
+      "isToday": false,
+    },
+  ],
+  Array [
+    Object {
+      "day": 12,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 13,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 14,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 15,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 16,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 17,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 18,
+      "isActive": true,
+      "isToday": false,
+    },
+  ],
+  Array [
+    Object {
+      "day": 19,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 20,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 21,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 22,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 23,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 24,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 25,
+      "isActive": true,
+      "isToday": false,
+    },
+  ],
+  Array [
+    Object {
+      "day": 26,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 27,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 28,
+      "isActive": true,
+      "isToday": true,
+    },
+    Object {
+      "day": 29,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 30,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 31,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 1,
+      "isActive": false,
+    },
+  ],
+  Array [
+    Object {
+      "day": 2,
+      "isActive": false,
+    },
+    Object {
+      "day": 3,
+      "isActive": false,
+    },
+    Object {
+      "day": 4,
+      "isActive": false,
+    },
+    Object {
+      "day": 5,
+      "isActive": false,
+    },
+    Object {
+      "day": 6,
+      "isActive": false,
+    },
+    Object {
+      "day": 7,
+      "isActive": false,
+    },
+    Object {
+      "day": 8,
+      "isActive": false,
+    },
+  ],
+]
+`;
+
+exports[`Calendar Model Month 2 1`] = `
+Array [
+  Array [
+    Object {
+      "day": 31,
+      "isActive": false,
+    },
+    Object {
+      "day": 1,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 2,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 3,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 4,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 5,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 6,
+      "isActive": true,
+      "isToday": false,
+    },
+  ],
+  Array [
+    Object {
+      "day": 7,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 8,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 9,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 10,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 11,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 12,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 13,
+      "isActive": true,
+      "isToday": false,
+    },
+  ],
+  Array [
+    Object {
+      "day": 14,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 15,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 16,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 17,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 18,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 19,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 20,
+      "isActive": true,
+      "isToday": false,
+    },
+  ],
+  Array [
+    Object {
+      "day": 21,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 22,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 23,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 24,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 25,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 26,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 27,
+      "isActive": true,
+      "isToday": false,
+    },
+  ],
+  Array [
+    Object {
+      "day": 28,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 29,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 30,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 1,
+      "isActive": false,
+    },
+    Object {
+      "day": 2,
+      "isActive": false,
+    },
+    Object {
+      "day": 3,
+      "isActive": false,
+    },
+    Object {
+      "day": 4,
+      "isActive": false,
+    },
+  ],
+  Array [
+    Object {
+      "day": 5,
+      "isActive": false,
+    },
+    Object {
+      "day": 6,
+      "isActive": false,
+    },
+    Object {
+      "day": 7,
+      "isActive": false,
+    },
+    Object {
+      "day": 8,
+      "isActive": false,
+    },
+    Object {
+      "day": 9,
+      "isActive": false,
+    },
+    Object {
+      "day": 10,
+      "isActive": false,
+    },
+    Object {
+      "day": 11,
+      "isActive": false,
+    },
+  ],
+]
+`;
+
+exports[`Calendar Model Year 1 1`] = `
+Array [
+  Array [
+    Object {
+      "day": 27,
+      "isActive": false,
+    },
+    Object {
+      "day": 28,
+      "isActive": false,
+    },
+    Object {
+      "day": 29,
+      "isActive": false,
+    },
+    Object {
+      "day": 30,
+      "isActive": false,
+    },
+    Object {
+      "day": 1,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 2,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 3,
+      "isActive": true,
+      "isToday": false,
+    },
+  ],
+  Array [
+    Object {
+      "day": 4,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 5,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 6,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 7,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 8,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 9,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 10,
+      "isActive": true,
+      "isToday": false,
+    },
+  ],
+  Array [
+    Object {
+      "day": 11,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 12,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 13,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 14,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 15,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 16,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 17,
+      "isActive": true,
+      "isToday": false,
+    },
+  ],
+  Array [
+    Object {
+      "day": 18,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 19,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 20,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 21,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 22,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 23,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 24,
+      "isActive": true,
+      "isToday": false,
+    },
+  ],
+  Array [
+    Object {
+      "day": 25,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 26,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 27,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 28,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 29,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 30,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 31,
+      "isActive": true,
+      "isToday": false,
+    },
+  ],
+  Array [
+    Object {
+      "day": 1,
+      "isActive": false,
+    },
+    Object {
+      "day": 2,
+      "isActive": false,
+    },
+    Object {
+      "day": 3,
+      "isActive": false,
+    },
+    Object {
+      "day": 4,
+      "isActive": false,
+    },
+    Object {
+      "day": 5,
+      "isActive": false,
+    },
+    Object {
+      "day": 6,
+      "isActive": false,
+    },
+    Object {
+      "day": 7,
+      "isActive": false,
+    },
+  ],
+]
+`;
+
+exports[`Calendar Model Year 2 1`] = `
+Array [
+  Array [
+    Object {
+      "day": 29,
+      "isActive": false,
+    },
+    Object {
+      "day": 30,
+      "isActive": false,
+    },
+    Object {
+      "day": 1,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 2,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 3,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 4,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 5,
+      "isActive": true,
+      "isToday": false,
+    },
+  ],
+  Array [
+    Object {
+      "day": 6,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 7,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 8,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 9,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 10,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 11,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 12,
+      "isActive": true,
+      "isToday": false,
+    },
+  ],
+  Array [
+    Object {
+      "day": 13,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 14,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 15,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 16,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 17,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 18,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 19,
+      "isActive": true,
+      "isToday": false,
+    },
+  ],
+  Array [
+    Object {
+      "day": 20,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 21,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 22,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 23,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 24,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 25,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 26,
+      "isActive": true,
+      "isToday": false,
+    },
+  ],
+  Array [
+    Object {
+      "day": 27,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 28,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 29,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 30,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 31,
+      "isActive": true,
+      "isToday": false,
+    },
+    Object {
+      "day": 1,
+      "isActive": false,
+    },
+    Object {
+      "day": 2,
+      "isActive": false,
+    },
+  ],
+  Array [
+    Object {
+      "day": 3,
+      "isActive": false,
+    },
+    Object {
+      "day": 4,
+      "isActive": false,
+    },
+    Object {
+      "day": 5,
+      "isActive": false,
+    },
+    Object {
+      "day": 6,
+      "isActive": false,
+    },
+    Object {
+      "day": 7,
+      "isActive": false,
+    },
+    Object {
+      "day": 8,
+      "isActive": false,
+    },
+    Object {
+      "day": 9,
+      "isActive": false,
+    },
+  ],
+]
+`;

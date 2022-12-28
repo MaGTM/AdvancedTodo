@@ -71,7 +71,6 @@ export class Calendar implements ICalendar {
             this.calendar.push(weekArray)
         }
 
-
         return this.calendar
     }
 }

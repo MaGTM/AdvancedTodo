@@ -1,4 +1,5 @@
-const changeMonthByOne = require('./changeMonthByOne')
+import {changeMonthByOne} from "./changeMonthByOne";
+
 
 describe('changeMonthByOne', () => {
     test('[0, 2023]', () => {
@@ -14,5 +15,3 @@ describe('changeMonthByOne', () => {
         expect(changeMonthByOne('prev', 0, 2023)).toEqual([11, 2022])
     })
 })
-
-export {}
