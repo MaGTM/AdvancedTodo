@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calendar Model Month 1`] = `
+Array [
+  Object {
+    "hour": "00:00",
+    "todos": Array [],
+  },
+  Object {
+    "hour": "01:00",
+    "todos": Array [],
+  },
+  Object {
+    "hour": "02:00",
+    "todos": Array [],
+  },
+  Object {
+    "hour": "03:00",
+    "todos": Array [],
+  },
+  Object {
+    "hour": "04:00",
+    "todos": Array [],
+  },
+  Object {
+    "hour": "05:00",
+    "todos": Array [],
+  },
+  Object {
+    "hour": "06:00",
+    "todos": Array [],
+  },
+  Object {
+    "hour": "07:00",
+    "todos": Array [],
+  },
+  Object {
+    "hour": "08:00",
+    "todos": Array [],
+  },
+  Object {
+    "hour": "09:00",
+    "todos": Array [],
+  },
+  Object {
+    "hour": "10:00",
+    "todos": Array [],
+  },
+  Object {
+    "hour": "11:00",
+    "todos": Array [],
+  },
+  Object {
+    "hour": "12:00",
+    "todos": Array [],
+  },
+  Object {
+    "hour": "13:00",
+    "todos": Array [],
+  },
+  Object {
+    "hour": "14:00",
+    "todos": Array [],
+  },
+  Object {
+    "hour": "15:00",
+    "todos": Array [],
+  },
+  Object {
+    "hour": "16:00",
+    "todos": Array [],
+  },
+  Object {
+    "hour": "17:00",
+    "todos": Array [],
+  },
+  Object {
+    "hour": "18:00",
+    "todos": Array [],
+  },
+  Object {
+    "hour": "19:00",
+    "todos": Array [],
+  },
+  Object {
+    "hour": "20:00",
+    "todos": Array [],
+  },
+  Object {
+    "hour": "21:00",
+    "todos": Array [],
+  },
+  Object {
+    "hour": "22:00",
+    "todos": Array [],
+  },
+  Object {
+    "hour": "23:00",
+    "todos": Array [],
+  },
+  Object {
+    "hour": "24:00",
+    "todos": Array [],
+  },
+]
+`;

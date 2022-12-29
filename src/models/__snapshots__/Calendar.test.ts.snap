@@ -161,12 +161,12 @@ Array [
     Object {
       "day": 28,
       "isActive": true,
-      "isToday": true,
+      "isToday": false,
     },
     Object {
       "day": 29,
       "isActive": true,
-      "isToday": false,
+      "isToday": true,
     },
     Object {
       "day": 30,

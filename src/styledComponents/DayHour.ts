@@ -9,5 +9,9 @@ export const DayHour = styled(Box)({
     padding: '25px',
     borderRadius: '15px',
     cursor: 'pointer',
-    '&:hover': {filter: 'brightness(1.1)'}
+    '&:hover': {filter: 'brightness(1.1)'},
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+
 })
